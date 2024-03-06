@@ -31,7 +31,7 @@ Both models were evaluated by calculating their balanced accuracy score, as well
 - Logistic regression - resampled data:
   - Balanced accuracy score: resampling the data increased the model's balanced accuracy score to 1, its maximum possible value. 
   - Precision: the model's precision was unaltered when using resampled data: its ability to correctly predict healthy loans remained at 100%, and it still correctly predicted high-risk loans 87% of times.
-  - Recall: the model's recall remained at 100% for healthy loans, but increased from 89% to 100% for high-risk loans, meaning that - using the resampled data - the model could now identify 100% of all high-risk loans. 
+  - Recall: the model's recall remained at 100% for healthy loans, but increased from 89% to 100% for high-risk loans, meaning that - using the resampled data - the model can now identify 100% of all high-risk loans. 
 
 ## Summary
 Both logistic regression models perform remarkably well. I would, however recommend the use of the second model (over-sampling model). The reasoning for it being:

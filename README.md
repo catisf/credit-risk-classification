@@ -24,12 +24,12 @@ Both models were evaluated by calculating their balanced accuracy score, as well
 
 ## Results
 - Logistic regression - original data:
-  - Balanced accuracy score: Computing the logistic regression model on the original data results in high accuracy, with a balanced accuracy score of 94%. Note that the balanced accuracy is the average of recall obtained on each class, and has a maximum value of 1.
+  - Balanced accuracy score: computing the logistic regression model on the original data results in high accuracy, with a balanced accuracy score of 94%. Note that the balanced accuracy is the average of recall obtained on each class, and has a maximum value of 1.
   - Precision: the model's precision is slightly higher for healthy loans than high-risk loans. Whilst the model's predictions are correct 100% of the times when predicting a healthy-loan, the model correctly predicts high-risk loans 87% of times.
   - Recall: the model correctly identifies 100% of all healthy loans, compared to 89% of high-risk loans.
   
 - Logistic regression - resampled data:
-  - Resampling the data increased the model's balanced accuracy score to 1, its maximum possible value. 
+  - Balanced accuracy score: resampling the data increased the model's balanced accuracy score to 1, its maximum possible value. 
   - Precision: the model's precision was unaltered when using resampled data: its ability to correctly predict healthy loans remained at 100%, and it still correctly predicted high-risk loans 87% of times.
   - Recall: the model's recall remained at 100% for healthy loans, but increased from 89% to 100% for high-risk loans, meaning that - using the resampled data - the model could now identify 100% of all high-risk loans. 
 
